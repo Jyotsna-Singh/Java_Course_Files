@@ -1,3 +1,4 @@
+package mainpackage;
 public class InputC {
 
 	public static void main(String[] args) {
