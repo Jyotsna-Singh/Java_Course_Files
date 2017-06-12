@@ -17,6 +17,7 @@ public class MyThread extends Thread{
 				int count = 0;
 				
 				while(count<10){
+					//t.notify();
 					System.out.println(name+ ":"+count);
 					count++;
 					try {
