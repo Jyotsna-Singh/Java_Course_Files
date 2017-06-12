@@ -3,6 +3,7 @@ package mainpackage;
 public class MyThread extends Thread{
 
 	boolean IsRunning=true;
+	String name;
 	public MyThread(String name){
 		System.out.println(name);
 	}
@@ -16,7 +17,7 @@ public class MyThread extends Thread{
 				int count = 0;
 				
 				while(count<10){
-					System.out.println(count);
+					System.out.println(name+ ":"+count);
 					count++;
 					try {
 						Thread.sleep(1000);
